@@ -14,6 +14,11 @@ The primary store of the data is a google docs spreadsheet found in this [DataHu
 
 The github repo contains miscellaneous code for processing and using this data.
 
+NB: you will need to set up your DataHub API Key for this to work. See
+<https://github.com/okfn/datastore-client>
+
+Here's what you should run:
+
     # install DataStore client library
     pip install -e git+http://github.com/okfn/datastore-client    
     # run the script
